@@ -36,6 +36,7 @@
     socat
     cargo
     nodejs_20
+    pnpm_10
   ];
 
   time.timeZone = "Europe/Paris";
