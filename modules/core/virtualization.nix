@@ -5,8 +5,8 @@
   ...
 }:
 {
-  # Add user to libvirtd group
-  users.users.${username}.extraGroups = [ "libvirtd" ];
+  # Add user to libvirtd group and docker group
+  users.users.${username}.extraGroups = [ "libvirtd" "docker" ];
 
   # Install necessary packages
   environment.systemPackages = with pkgs; [
@@ -29,6 +29,9 @@
         ovmf.enable = true;
         ovmf.packages = [ pkgs.OVMFFull.fd ];
       };
+    };
+    docker = {
+      enable = true;
     };
     spiceUSBRedirection.enable = true;
   };
