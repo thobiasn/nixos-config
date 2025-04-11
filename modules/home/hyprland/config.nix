@@ -1,4 +1,4 @@
-{ ... }:
+{ username, ... }:
 {
   wayland.windowManager.hyprland = {
     settings = {
@@ -18,7 +18,7 @@
         "swww-daemon &"
 
         "hyprlock &"
-	"~/.nixos-config/modules/home/hyprland/scripts/hypr-monitor-watch.sh"
+	"bash ~/.config/hypr/scripts/hypr-monitor-watch.sh >> /tmp/hypr-monitor.log 2>&1"
       ];
 
       input = {
