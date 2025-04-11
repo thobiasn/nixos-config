@@ -34,6 +34,8 @@
     wget
     git
     socat
+    cargo
+    nodejs_20
   ];
 
   time.timeZone = "Europe/Paris";
