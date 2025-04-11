@@ -1,4 +1,4 @@
-{ pkgs, inputs, username, ... }:
+{ pkgs, inputs, ... }:
 {
   programs.neovim = {
     enable = true;
@@ -8,5 +8,5 @@
     withRuby = false;
   };
 
-  home.file.".config/nvim".source = "/home/${username}/nvim-config";
+  home.file.".config/nvim".source = "./config";
 }
