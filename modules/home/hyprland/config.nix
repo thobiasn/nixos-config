@@ -18,7 +18,7 @@
         "swww-daemon &"
 
         "hyprlock &"
-	"bash ~/.config/hypr/scripts/hypr-monitor-watch.sh >> /tmp/hypr-monitor.log 2>&1"
+	"bash ~/nixos-config/modules/home/hyprland/scripts/hypr-monitor-watch.sh >> /tmp/hypr-monitor.log 2>&1"
       ];
 
       input = {
