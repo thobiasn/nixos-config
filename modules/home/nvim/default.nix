@@ -8,5 +8,5 @@
     withRuby = false;
   };
 
-  home.file.".config/nvim".source = "./config";
+  home.file.".config/nvim".source = ./config;
 }
