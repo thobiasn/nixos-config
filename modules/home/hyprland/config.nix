@@ -23,9 +23,6 @@
 
       input = {
         kb_layout = "us,dk";
-        kb_variant = "";
-        kb_model = "";
-        kb_rules = "";
         kb_options = "grp:switch";
         numlock_by_default = true;
         repeat_delay = 300;
