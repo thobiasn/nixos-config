@@ -17,7 +17,8 @@
         "hyprctl setcursor Bibata-Modern-Ice 24 &"
         "swww-daemon &"
 
-        "hyprlock"
+        "hyprlock &"
+	"~/.nixos-config/modules/home/hyprland/scripts/hypr-monitor-watch.sh"
       ];
 
       input = {

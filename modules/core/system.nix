@@ -33,6 +33,7 @@
   environment.systemPackages = with pkgs; [
     wget
     git
+    socat
   ];
 
   time.timeZone = "Europe/Paris";
