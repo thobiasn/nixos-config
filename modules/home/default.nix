@@ -40,5 +40,6 @@
     ./yazi.nix                        # terminal file manager
     ./zsh                             # shell
     ./slack.nix
+    ./postman.nix
   ];
 }
