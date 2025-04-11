@@ -27,6 +27,7 @@
     ./rofi.nix                        # launcher
     ./scripts/scripts.nix             # personal scripts
     ./spicetify.nix                   # spotify client
+    ./supabase-cli.nix
     ./starship.nix                    # shell prompt
     ./swaylock.nix                    # lock screen
     ./swayosd.nix                     # brightness / volume wiget
