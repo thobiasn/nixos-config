@@ -4,7 +4,7 @@
     xserver = {
       enable = true;
       xkb.layout = "us,dk";
-      xkbOptions = "grp:toggle";
+      xkb.options = "grp:toggle";
     };
 
     displayManager.autoLogin = {
