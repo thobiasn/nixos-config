@@ -11,7 +11,6 @@
   
   environment.systemPackages = with pkgs; [
     aide          # Advanced Intrusion Detection Environment
-    rkhunter      # Rootkit hunter (optional)
   ];
   
   boot.kernel.sysctl = {
