@@ -11,7 +11,6 @@
   
   environment.systemPackages = with pkgs; [
     aide          # Advanced Intrusion Detection Environment
-    pam_passwdqc  # Password quality checking
     rkhunter      # Rootkit hunter (optional)
   ];
   
