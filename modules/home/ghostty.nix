@@ -14,7 +14,7 @@ in
     # Font
     font-family = "Maple Mono"
     font-size = ${if (host == "laptop") then "13" else "15"}
-    font-feature = calt
+    # font-feature = calt
     font-feature = ss03
 
     bold-is-bright = false
