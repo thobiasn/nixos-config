@@ -41,5 +41,6 @@
     ./zsh                             # shell
     ./slack.nix
     ./postman.nix
+    ./wlsunset.nix
   ];
 }
