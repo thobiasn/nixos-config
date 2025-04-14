@@ -132,5 +132,12 @@
       "image-size": 85,
       "image-radius": 5
     }
+  },
+  "scripts": {
+    "ignore-battery-full": {
+      "exec": "",
+      "app-name": "poweralertd",
+      "summary": "Power status: 5B10W13975"
+    }
   }
 }
