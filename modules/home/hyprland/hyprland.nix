@@ -27,5 +27,9 @@
     };
     # enableNvidiaPatches = false;
     systemd.enable = true;
+
+    extraConfig = ''
+      exec-once = setxkbmap -layout "us,dk" -option "grp:toggle"
+    '';
   };
 }
