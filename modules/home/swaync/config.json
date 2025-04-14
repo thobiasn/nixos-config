@@ -24,6 +24,12 @@
   "hide-on-clear": false,
   "hide-on-action": true,
   "script-fail-notify": true,
+  "blacklist": [
+    {
+      "app-name": "poweralertd",
+      "summary": "Power status: 5B10W13975"
+    }
+  ],
   "widgets": [
     "title",
     "menubar#desktop",
@@ -131,13 +137,6 @@
     "mpris": {
       "image-size": 85,
       "image-radius": 5
-    }
-  },
-  "scripts": {
-    "ignore-battery-full": {
-      "exec": "",
-      "app-name": "poweralertd",
-      "summary": "Power status: 5B10W13975"
     }
   }
 }
