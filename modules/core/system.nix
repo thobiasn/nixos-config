@@ -37,6 +37,7 @@
     cargo
     nodejs_20
     pnpm_10
+    deno
   ];
 
   time.timeZone = "Europe/Paris";
