@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://github.com/superfly/flyctl/releases/download/v${version}/flyctl_${version}_Linux_x86_64.tar.gz";
-    sha256 = "081y99vsgfnw4simkrlvcqyfzydn5pialdxi7k90xzwrbd7lg3qm";
+    sha256 = "sha256-VrULMXutxPI95Sr67HD3Y1yfPLSSDa/4fKRCH/VWUt0=";
   };
 
   unpackPhase = ''
