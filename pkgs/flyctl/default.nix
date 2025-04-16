@@ -2,11 +2,11 @@
 
 stdenv.mkDerivation rec {
   pname = "flyctl";
-  version = "0.2.65"; # Or whatever the latest version is
+  version = "0.3.105";
 
   src = fetchurl {
     url = "https://github.com/superfly/flyctl/releases/download/v${version}/flyctl_${version}_Linux_x86_64.tar.gz";
-    sha256 = "0hpb29f9vlspq0dqksgickpdmqrq6m4l8rmm9sa35b760ls30a1b";
+    sha256 = "081y99vsgfnw4simkrlvcqyfzydn5pialdxi7k90xzwrbd7lg3qm";
   };
 
   unpackPhase = ''
