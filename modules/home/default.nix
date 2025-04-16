@@ -42,5 +42,6 @@
     ./slack.nix
     ./postman.nix
     ./wlsunset.nix
+    ./flyctl.nix
   ];
 }
